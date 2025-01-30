@@ -145,5 +145,5 @@ h2 {
     margin-left: 2px;
 }
 
-@import url("../../assets/transiton.css");
+@import url("../../assets/transition.css");
 </style>

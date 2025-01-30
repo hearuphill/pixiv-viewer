@@ -14,13 +14,7 @@
                     <strong>关于</strong>
                     <span class="close" @click="isOpen = false"> [关闭] </span>
                 </div>
-                <p>
-                    <a href="https://github.com/YieldRay/pixiv-viewer">
-                        源代码 (Github)
-                    </a>
-                </p>
-                <p><strong>遗弃警告⚠：此项目已被遗弃</strong></p>
-                <p>仅个人练手项目</p>
+                <p><strong>警告⚠：此项目已废弃</strong></p>
                 <p>遇到部分加载失败时，尝试刷新</p>
                 <p>如非特殊情况，此项目已不再维护</p>
             </div>
@@ -37,7 +31,7 @@ export default {
 </script>
 
 <style scoped>
-@import url("../../assets/transiton.css");
+@import url("../../assets/transition.css");
 
 div {
     min-width: 50vw;

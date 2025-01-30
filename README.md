@@ -1,6 +1,6 @@
 # pixivviewer
 
-练手项目，由于架构稀烂，不再维护。  
+练手项目，不再维护。  
 编写时 Vue CLI 还未进入维护模式。
 
 ## Project setup

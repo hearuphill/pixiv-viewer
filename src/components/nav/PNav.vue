@@ -19,13 +19,13 @@
 
     <PSidebar :on="isSidebarOpen" v-on:toggle="isSidebarOpen = false">
     </PSidebar>
-    <PSearchAssosiate
+    <PSearchAssociate
         :on="isSearchOpen"
         :history="history"
         @clearHistory="clearHistory"
         @search="searchHistory"
     >
-    </PSearchAssosiate>
+    </PSearchAssociate>
 
     <transition name="fade">
         <div
@@ -41,7 +41,7 @@ import PLogo from "./PLogo.vue";
 import RoundButton from "./ToggleButton.vue";
 import PSidebar from "./PSidebar.vue";
 import PSearch from "./PSearch.vue";
-import PSearchAssosiate from "./PSearchAssosiate.vue";
+import PSearchAssociate from "./PSearchAssociate.vue";
 import UserSpace from "./UserSpace.vue";
 import { storage } from "@/assets/localStorage";
 
@@ -75,7 +75,7 @@ export default {
         PLogo,
         PSearch,
         UserSpace,
-        PSearchAssosiate,
+        PSearchAssociate,
     },
 };
 </script>
@@ -110,5 +110,5 @@ nav {
     z-index: 1;
 }
 
-@import url("../../assets/transiton.css");
+@import url("../../assets/transition.css");
 </style>

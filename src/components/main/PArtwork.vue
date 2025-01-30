@@ -198,7 +198,7 @@ main {
 }
 
 @import url("../../assets/loading.css");
-@import url("../../assets/transiton.css");
+@import url("../../assets/transition.css");
 
 .container {
     margin: 2vh 4vw;

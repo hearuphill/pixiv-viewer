@@ -1,6 +1,6 @@
 <template>
     <transition name="fade">
-        <div class="assosiate" v-if="on">
+        <div class="associate" v-if="on">
             <div class="history">
                 <strong>历史记录</strong>
                 <small style="cursor: pointer" @click="$emit('clearHistory')"
@@ -35,7 +35,7 @@
 
 <script>
 export default {
-    name: "PSearchAssosiate",
+    name: "PSearchAssociate",
     props: {
         on: Boolean,
         history: Array,
@@ -45,9 +45,9 @@ export default {
 </script>
 
 <style scoped>
-@import url("../../assets/transiton.css");
+@import url("../../assets/transition.css");
 
-.assosiate {
+.associate {
     position: absolute;
     overflow-y: auto;
     background: #fff;
@@ -62,14 +62,14 @@ export default {
 }
 
 @media screen and (max-width: 64rem) {
-    .assosiate {
+    .associate {
         left: 20vw;
         width: 24rem;
     }
 }
 
 @media screen and (max-width: 32rem) {
-    .assosiate {
+    .associate {
         left: 5vw;
         width: 85vw;
     }

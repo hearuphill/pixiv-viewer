@@ -104,7 +104,7 @@ export default {
 
 <style scoped>
 @import url("../../assets/loading.css");
-@import url("../../assets/transiton.css");
+@import url("../../assets/transition.css");
 
 .background {
     min-height: 12rem;
